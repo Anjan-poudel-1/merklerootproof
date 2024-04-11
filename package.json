@@ -1,0 +1,20 @@
+{
+  "name": "jananiscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createRootHash": "node merkletree/createTree.js",
+    "getProof": "node merkletree/verifyUserAddress.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "web3": "^4.7.0"
+  }
+}
